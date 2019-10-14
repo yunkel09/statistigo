@@ -1,0 +1,15 @@
+Package: statistigo
+Type: Package
+Title: Funciones estadísticas útiles para el aprendizaje
+Version: 0.1.0
+Author: William Chavarría
+Maintainer: William Chavarría <wchavarria@tigo.com.gt>
+Description: Las funcione están orientadas a presentar de forma gráfica algunos
+    conceptos relacionados a la estadística inferencial.  De esta forma resulta
+    más sencillo comprender el marco de trabajo de las pruebas de hipótesis y 
+    los intervalos de confianza.
+License: None
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr, ggplot2, janitor, cowplot, stringr, data.table
+RoxygenNote: 6.1.1
