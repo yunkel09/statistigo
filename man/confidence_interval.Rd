@@ -29,6 +29,5 @@ la desviación estandar de la población, ya que de lo contrario requerirá que
 se utilice el valor crítico utilizando la distribución t.
 }
 \examples{
-
 calcular_intervalo(x = 100, ci = 0.95, n = 50, s = 3, tails = 2)
 }

@@ -19,10 +19,16 @@ Se puede apicar tanto a LaTex como a HTML
 }
 \details{
 Lo que hace la función es aplicar la función `\\textcolor` en Latex y
-la etiqueta de font color en HTML.
+ la etiqueta de font color en HTML.
 }
+\section{convencion}{
+ esta es una extensión de la explicación que se debe de
+ dar sobre esta funcion.  \eqn{a + b}, así como \deqn{a + b}
+
+ \deqn{H_{1}: \mu_{0} > 7}
+}
+
 \examples{
 color_fuente("hola mundo", "blue")
- 
 
 }

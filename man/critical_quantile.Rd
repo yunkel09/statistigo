@@ -23,7 +23,6 @@ de una prueba de dos colas, ya que en una prueba de una cola solo es necesario
 ingresar el nivel de confianza directamente.
 }
 \examples{
-
 cuantil_critico(cl = 0.90, tails = 2)
 
 }

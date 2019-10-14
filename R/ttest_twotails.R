@@ -11,10 +11,12 @@
 #'
 #' @examples
 #'
-#' @import dplyr
 #' @import ggplot2
-#' @import cowplot
-#' @import glue
+#' @importFrom dplyr case_when
+#' @importFrom magrittr %>%
+#' @importFrom cowplot theme_cowplot
+#' @importFrom glue glue
+#'
 #' @export
 ttest_twotails <- function(n, t_score, nivel_confianza = 0.95) {
 

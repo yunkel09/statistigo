@@ -11,5 +11,12 @@ Description: Las funcione están orientadas a presentar de forma gráfica alguno
 License: None
 Encoding: UTF-8
 LazyData: true
-Imports: dplyr, ggplot2, janitor, cowplot, stringr, data.table
+Imports: 
+    ggplot2, 
+    glue, 
+    cowplot,
+    dplyr
+Suggests:
+    data.table,
+    janitor
 RoxygenNote: 6.1.1

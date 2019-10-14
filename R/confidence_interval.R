@@ -17,6 +17,7 @@
 #' @examples
 #' calcular_intervalo(x = 100, ci = 0.95, n = 50, s = 3, tails = 2)
 #' @importFrom dplyr case_when
+#' @importFrom magrittr %>%
 #' @export
 confidence_interval <- function(x, cl, n, s, tails = 2){
 

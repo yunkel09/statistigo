@@ -21,7 +21,7 @@ Sombrea la región de rechazo para una prueba de una cola
 Esta función grafica utilizando la distribución t. El parámetro
 `lower_tail` dependerá de si la prueba es positiva (derecha) o negativa.  En
 este caso el planteamiento de la hipótesis alternativa será lo que defina el
-lado de la cola bajo estudio. Recordar que, por convención, siempre nos 
+lado de la cola bajo estudio. Recordar que, por convención, siempre nos
 interesará sombrear el área de rechazo y dejar la región de aceptación sin
 sombrear.
 }

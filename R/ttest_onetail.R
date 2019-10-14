@@ -17,9 +17,12 @@
 #' @examples
 #'
 #'
-#' @import dplyr
 #' @import ggplot2
+#' @importFrom dplyr case_when
+#' @importFrom magrittr %>%
+#' @importFrom cowplot theme_cowplot
 #' @importFrom glue glue
+#'
 #' @export
 ttest_onetail <- function(n, t, t_alfa, lower_tail = FALSE){
 
