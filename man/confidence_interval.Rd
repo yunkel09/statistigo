@@ -11,23 +11,24 @@ confidence_interval(x, cl, n, s, tails = 2)
 
 \item{cl}{Nivel de confianza}
 
-\item{n}{Tamaño de la muestra}
+\item{n}{Tamano de la muestra}
 
-\item{s}{Desviación estándar de la población}
+\item{s}{Desviación estándar de la poblacion}
 
-\item{s}{Desviación estándar de la población}
+\item{tails}{Desviacion estándar de la poblacion}
 }
 \value{
 Un vector de longitud 2 con el intervalo
 }
 \description{
-Funciona solo cuando se conoce la varianza de la población.
+Funciona solo cuando se conoce la varianza de la poblacion.
 }
 \details{
-Esta función solo aplica para calcular el intervalo cuando se conoce
-la desviación estandar de la población, ya que de lo contrario requerirá que
-se utilice el valor crítico utilizando la distribución t.
+Esta funcion solo aplica para calcular el intervalo cuando se conoce
+la desviacion estandar de la poblacion, ya que de lo contrario requerira que
+se utilice el valor critico utilizando la distribucion t.
 }
 \examples{
-calcular_intervalo(x = 100, ci = 0.95, n = 50, s = 3, tails = 2)
+calcular_intervalo(x = 100, cl = 0.95, n = 50, s = 3, tails = 2)
+
 }

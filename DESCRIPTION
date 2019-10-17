@@ -8,15 +8,18 @@ Description: Las funcione están orientadas a presentar de forma gráfica alguno
     conceptos relacionados a la estadística inferencial.  De esta forma resulta
     más sencillo comprender el marco de trabajo de las pruebas de hipótesis y 
     los intervalos de confianza.
-License: None
+License: GLP-2
 Encoding: UTF-8
 LazyData: true
 Imports: 
     ggplot2, 
     glue, 
     cowplot,
-    dplyr
+    dplyr,
+    magrittr,
+    knitr
 Suggests:
     data.table,
-    janitor
+    janitor,
+    testthat (>= 2.1.0)
 RoxygenNote: 6.1.1

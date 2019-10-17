@@ -31,3 +31,11 @@ Roxygen se encarge de todo, especialmente de crear el archivo `NAMESPACE`.
 
   6.1 Si los archivos .Rd no están creados, Roxygen no será capaz de crear el
       archivo `NAMESPACE`
+      
+      
+# Crear unidades de prueba (unit testing)
+
+1. use_test("pvalue"): Para crear una carpeta para correr las pruebas 
+2. crear las pruebas utilizando las funciones de testthat
+3. correr el archivo de pruebas con test_file("tests/testthat/test-pvalue.R")
+4. corregir errores

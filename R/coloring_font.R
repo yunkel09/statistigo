@@ -2,7 +2,7 @@
 #'
 #' Se puede apicar tanto a LaTex como a HTML
 #'
-#' @details Lo que hace la función es aplicar la función `\\textcolor` en Latex y
+#' @details Lo que hace la función es aplicar la función en Latex y
 #'  la etiqueta de font color en HTML.
 #'
 #' @param x Cadena de texto que se requiere colorear
@@ -11,11 +11,11 @@
 #' @return La cadena de texto con el color especificado
 #'
 #' @examples
-#' color_fuente("hola mundo", "blue")
-#'
+#' coloring_font(x = "hola mundo", color = "blue")
+#' @import knitr
 #' @export
 
-color_fuente <-  function(x, color){
+coloring_font <-  function(x, color){
 
   outputFormat <-  knitr::opts_knit$get("rmarkdown.pandoc.to")
 

@@ -1,21 +1,22 @@
 #' Calcula el intervalo de confianza para un determinado nivel de confianza
 #'
-#' Funciona solo cuando se conoce la varianza de la población.
+#' Funciona solo cuando se conoce la varianza de la poblacion.
 #'
-#' @details Esta función solo aplica para calcular el intervalo cuando se conoce
-#' la desviación estandar de la población, ya que de lo contrario requerirá que
-#' se utilice el valor crítico utilizando la distribución t.
+#' @details Esta funcion solo aplica para calcular el intervalo cuando se conoce
+#' la desviacion estandar de la poblacion, ya que de lo contrario requerira que
+#' se utilice el valor critico utilizando la distribucion t.
 #'
 #' @param x Media muestral
 #' @param cl Nivel de confianza
-#' @param n Tamaño de la muestra
-#' @param s Desviación estándar de la población
-#' @param s Desviación estándar de la población
+#' @param n Tamano de la muestra
+#' @param s Desviación estándar de la poblacion
+#' @param tails Desviacion estándar de la poblacion
 #'
 #' @return Un vector de longitud 2 con el intervalo
 #'
 #' @examples
-#' calcular_intervalo(x = 100, ci = 0.95, n = 50, s = 3, tails = 2)
+#' calcular_intervalo(x = 100, cl = 0.95, n = 50, s = 3, tails = 2)
+#'
 #' @importFrom dplyr case_when
 #' @importFrom magrittr %>%
 #' @export
